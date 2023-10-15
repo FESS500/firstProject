@@ -34,11 +34,11 @@ const Display = () => {
             Приготовим к назначенному сроку<br />
             Доставка на авто в холодильнике.
           </div>
-        <div>
-            <div>
+        <div className='catalog'>
+            <div className='buttonCatalog'>
               Перейти в каталог
             </div>
-            <div>
+            <div className='vids'>
               10 видов начинок на выбор
             </div>
           </div>
