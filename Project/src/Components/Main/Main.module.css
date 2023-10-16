@@ -1,0 +1,28 @@
+.background{
+    background-color: white;
+    width: 1920px;
+    height: 1926px;
+}
+
+.main{
+    display: flex;
+    font-family: Montserrat;
+    font-style: normal;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    width: 1180px;
+    height: 60px;
+    margin: 0 auto;
+    color: #2E363E;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    
+    font-size: 48px;
+    
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: -1px;
+}
