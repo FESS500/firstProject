@@ -1,18 +1,17 @@
-import React from 'react';
-import './App.css';
+import React from 'react'; //Импорт в Реакт
+import Display from './Components/Display/Display';//Импортирование компоненты Display
+import Main from './Components/Main/Main';//Импортирование компоненты Main
 
-import Main from './Components/Main';
-import Display from './Components/Display';
 
 
 const App = () => {
   return (
     <div>
       <Display />
-      <Main />
+      <Main />   
     </div>
   );
 }
 
-export default App;
+export default App;  //Экспорт
 
