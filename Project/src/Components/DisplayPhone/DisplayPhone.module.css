@@ -1,0 +1,88 @@
+.background{ /*фон первой части*/
+    background-color: #081130;
+    width: 1920px;
+    height: 1030px;
+}
+
+.MainHeader{/*Основной контент, шрифты и кнопки*/
+    color: white;
+    padding-left: 1000px;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+}
+
+.buttonWhite{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F6FA;
+    color: black;
+    width: 230px;
+    height: 37px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 1.1px;
+    border: solid black 1px;
+}
+
+.buttonWhite:hover{
+    transform: scale(1.1);
+    transition: 200ms;
+}
+
+.textCake{
+    width: 600px;
+    height: 180px;
+   
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 60px; /* 125% */
+    letter-spacing: -1px;
+    
+}
+
+.textCold{
+    width: 544px;
+    height: 69px;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 143%;
+    
+    border-radius: 10px;
+}
+
+.catalog{
+    display: flex;
+    padding-top: 30px;
+}
+
+.buttonCatalog{ display: flex;
+    width: 120px;
+    height: 18px;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 152%;
+    padding: 30px 50px;
+    align-items: center;
+    border-radius: 8px;
+    background: #FED84C;
+    color: black;
+    border: 1px solid;
+}
+
+.buttonCatalog:hover{
+    transform: scale(1.1);
+    transition: 300ms;
+}
+.phoneHand{
+    position: absolute;
+    left: -70px;
+    width: 1090px;
+    height: 1034px;
+}
